@@ -1,0 +1,334 @@
+body{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+padding: 0;
+}
+
+/* styling for index.html*/
+
+.container {
+position: absolute;
+display: flex;
+height:100vh;
+width: 98%;
+background-image: linear-gradient(rgb(90, 140, 235), rgb(4, 47, 126)); url(images/banner-bg.png)
+padding: 0;
+margin: auto;
+}
+
+
+.navbar{
+    display: inline;
+    justify-content: space-between;
+    
+}
+.logo{
+position: absolute;
+display: inline-block;
+width:auto;
+font-size: 30px;
+font-weight: bolder;
+font-family: fantasy;
+border: none;
+margin: 3px;
+padding: 3px;
+color: white;
+cursor: pointer;
+}
+
+.logo:hover{
+    color:rgb(248, 103, 6);
+}
+
+.navbar ul {
+    display: block;
+    width: 28px;
+    color: white;
+    margin-left: 68%;
+   position: absolute;
+   text-decoration: none;
+
+}
+
+.navbar ul li{
+ 
+    margin: 10px;
+    list-style-type: none;
+    color: white;
+    font-size: larger;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    width: 28px;
+
+
+}
+
+.navbar ul li a:hover{
+    color: rgb(248, 103, 6);
+    background-color: white;
+    border-radius: 5px;
+    padding: 4px;
+    transition: 0.2s;
+}
+
+h1 {
+   position: absolute;
+    display: inline-block;
+    text-align: center;
+    top: 40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: rgb(245, 246, 247);
+}
+
+h1 #h1 {
+    color: rgb(248, 103, 6);
+   font-size: 60px;
+}
+
+
+
+/* styling for the content page*/
+
+.content
+{
+    margin-top: 100vh;
+    position: absolute;
+    display: flex;
+    width: 95%;
+    color: white;
+    font-size: larger;
+
+
+}
+
+ #header {
+    display: inline-block;
+    margin-left: 50%;
+    transform: translate(-50);
+    margin-bottom: 40px;
+    color:rgb(248, 103, 6);
+    font-size: larger;
+    font-weight: bolder;
+    width: 100px;
+   
+}
+
+
+.content ul{
+    position: absolute;
+    display: block;
+    margin: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: large;
+    align-items: center;
+}
+
+.content ul li{
+    list-style-type: none;
+    color: rgb(248, 103, 6);
+    font-size: larger;
+    font-weight: bolder;
+    background-color: rgb(4, 47, 126);
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius:5px ;
+    align-content: center;
+
+}
+
+.content ul li a{
+    text-decoration: none;
+    color: rgb(248, 103, 6);
+}
+
+.content ul li:hover ,.content ul li a:hover{
+    color: rgb(4, 47, 126);
+    background-color: rgb(248, 103, 6);
+}
+
+.content ul .go_home
+{
+    position: absolute;
+    list-style-type: none;
+    color: rgb(248, 103, 6);
+    font-size: larger;
+    font-weight: bolder;
+    background-color: rgb(4, 47, 126);
+    padding: 3px;
+    border-radius:5px ;
+    margin-bottom: 0px;
+    margin-left: 40%;
+    transform: translateX(-50%);
+    width: 50%;
+
+}
+
+/*styling for the contact page*/
+
+h2 
+{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    top: 5%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: rgb(245, 246, 247);
+    font-size: 40px;
+}
+
+ h2  #h2 
+{
+    
+    color: rgb(248, 103, 6);
+   font-size: 35px;
+}
+
+form
+{
+    padding: 0px;
+position: absolute;
+margin-top: 20%;
+margin-left: 1px;
+margin-right: 1px;
+display: inline;
+width: 100%;
+height: 50%;
+border: 5px rgb(248, 103, 6) solid;
+}
+
+form input 
+{
+   
+    display: block;
+    margin-bottom: 10px;
+    width: 320px;
+    background-color:white;
+    border: none;
+    text-align: center;
+    margin: 10px;
+    margin-left: 30px;
+    border-radius: 5px;
+    border: 1px rgb(4, 47, 126) solid;
+    padding: 10px;
+    
+
+}
+
+form button  {
+    display: inline-block;
+margin-bottom: auto;
+    width: 90px;
+    background-color: rgb(248, 103, 6);
+    color: white;
+    border: none;
+    text-align: center;
+    margin: 10px;
+    margin-left: 40%;
+    margin-top: 50%;
+    border-radius: 5px;
+    border: 1px rgb(4, 47, 126) solid;
+    padding: 10px;
+    
+}
+form input:hover , form button:hover
+{
+    background-color: white;
+    color: rgb(4, 47, 126);
+    border: none;
+    font-size: large;
+}
+
+
+.container form .contact_text
+ {
+    display: block;
+    position: absolute;
+    padding: 3px;
+    color: white;
+}
+
+/* styling for the about page*/
+.about_content
+{
+    position: inherit;
+    display:inline-block;
+width: 75%;
+text-align: center;
+color: white;
+top: 20%;
+left: 50%;
+transform: translate(-50%, 50%);
+}
+
+.about_content p
+{
+position: absolute;
+display: block;
+font-size: larger;
+font-weight: 100;
+margin-top: 23px;
+
+}
+
+.about_content p a{
+    text-decoration: none;
+    color: rgb(248, 103, 6);
+    font-weight: 100;
+    font-size: larger;
+
+}
+/*..........product page styling ................................*/
+
+.product
+{
+    position: absolute;
+    display: flex;
+    height:100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(90, 140, 235), rgb(4, 47, 126)); url(images/banner-bg.png)
+    padding: 0;   
+}
+
+
+/*the first cont on my content list. how the st must look..........*/
+
+.text_context {
+    position: absolute;
+    display: flex;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    border: 1px solid blue;
+}
+
+.text_context .web_dev {
+    width: 100%;
+    height: 100%;
+}
+
+.text_context .web_dev p {
+    position: absolute;
+    display: block;
+    top: 0;
+
+}
+
+.text_context .web_dev p h1{
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+
+
+
+
+    
+    
