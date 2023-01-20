@@ -14,13 +14,15 @@ height:100vh;
 width: 98%;
 background-image: linear-gradient(rgb(90, 140, 235), rgb(4, 47, 126)); url (images/banner-bg.png);
 padding: 0;
-margin: auto;
+margin-left: 10px;
+border-radius: 3px;
 }
 
 
 .navbar{
     display: inline;
-    justify-content: space-between;
+    justify-content: left;
+    margin-right: 20px;
     
 }
 .logo{
@@ -45,7 +47,8 @@ cursor: pointer;
     display: block;
     width: 28px;
     color: white;
-    margin-left: 68%;
+    margin-left: 80%;
+    margin-right: 20px;
    position: absolute;
    text-decoration: none;
 
