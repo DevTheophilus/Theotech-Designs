@@ -1,30 +1,22 @@
 body{
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-padding: 0;
-}
-
+    padding: 0px;
+    margin: 0px;
+    }
+    
 /* styling for index.html*/
 
 .container {
 position: absolute;
 display: flex;
 height:100vh;
-width: 98%;
+width: 100%;
 background-image: linear-gradient(rgb(90, 140, 235), rgb(4, 47, 126)); url (images/banner-bg.png);
 padding: 0;
-margin-left: 10px;
+margin-left:0;
 border-radius: 3px;
 }
 
 
-.navbar{
-    display: inline;
-    justify-content: left;
-    margin-right: 20px;
-    
-}
 .logo{
 position: absolute;
 display: inline-block;
@@ -43,26 +35,25 @@ cursor: pointer;
     color:rgb(248, 103, 6);
 }
 
-.navbar ul {
+ ul {
     display: block;
-    width: 28px;
+    width: 20px;
     color: white;
-    margin-left: 80%;
-    margin-right: 20px;
+    margin-left: 70%;
+    margin-right: 0px;
    position: absolute;
    text-decoration: none;
 
 }
 
-.navbar ul li{
- 
-    margin: 10px;
+ ul li{
+      padding-right: 0px;
     list-style-type: none;
     color: white;
     font-size: larger;
 }
 
-.navbar ul li a{
+ ul li a{
     text-decoration: none;
     color: white;
     width: 28px;
@@ -70,7 +61,7 @@ cursor: pointer;
 
 }
 
-.navbar ul li a:hover{
+ ul li a:hover{
     color: rgb(248, 103, 6);
     background-color: white;
     border-radius: 5px;
@@ -78,17 +69,18 @@ cursor: pointer;
     transition: 0.2s;
 }
 
-h1 {
+.learn {
    position: absolute;
     display: inline-block;
     text-align: center;
+    font-size: 40px;
     top: 40%;
     left:50%;
     transform: translate(-50%,-50%);
     color: rgb(245, 246, 247);
 }
 
-h1 #h1 {
+.learn #h1 {
     color: rgb(248, 103, 6);
    font-size: 60px;
 }
@@ -127,6 +119,7 @@ h1 #h1 {
     display: block;
     margin: 20px;
     left: 50%;
+    width: 250px;
     transform: translate(-50%);
     font-size: large;
     align-items: center;
@@ -147,7 +140,9 @@ h1 #h1 {
 
 .content ul li a{
     text-decoration: none;
-    color: rgb(248, 103, 6);
+    text-align: center;
+background-color: rgb(4, 47, 126);   
+ color: rgb(248, 103, 6);
 }
 
 .content ul li:hover ,.content ul li a:hover{
@@ -302,31 +297,40 @@ margin-top: 23px;
 
 /*the first cont on my content list. how the st must look..........*/
 
-.text_context {
-    position: absolute;
-    display: flex;
+
+ .web_dev {
+    display: block;
     width: 90%;
-    margin: 0;
-    padding: 0;
-    border: 1px solid blue;
+margin: 3px;
+padding: 3px 35px;
+font-size: large;
 }
-
-.text_context .web_dev {
-    width: 100%;
-    height: 100%;
+ .web_dev h1
+{
+color: blue;
+text-align: center;
+padding: 3px 10px;
+margin-top: 0;
+width: 100%;
 }
-
+ .web_dev  h3
+{
+    color: blue;
+    padding: 3px 10px;
+    font-size:25px;
+  margin-bottom: 0;
+}
 .text_context .web_dev p {
     position: absolute;
     display: block;
-    top: 0;
+    
 
 }
 
-.text_context .web_dev p h1{
+ .web_dev p h3{
     position: absolute;
     display: block;
-    top: 0;
+    color: blue;
 }
 
 
