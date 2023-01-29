@@ -186,7 +186,7 @@ form
     padding: 0px;
 position: absolute;
 margin-top: 20%;
-margin-left: 7rem;
+margin-left: 4rem;
 margin-right: 1rem;
 display: inline;
 width: 70%;
@@ -199,7 +199,7 @@ form input
    
     display: block;
     margin-bottom: 10px;
-    width: 320px;
+    width:90%;
     background-color:white;
     border: none;
     text-align: center;
