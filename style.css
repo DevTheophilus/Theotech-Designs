@@ -64,14 +64,26 @@ ul {
     width: 28px;
   }
   
-  @media screen and (max-width: 768px) {
+ @media screen and (max-width: 768px) {
     ul {
       flex-direction: column;
+      
+      
     }
   
     ul li {
-      padding: 20px 0;
+      padding: 10px 0;
       text-align: center;
+      margin-top: 0px;
+      margin-bottom: 0 auto;
+      margin-left: 51%;
+      left: 0;
+
+    }
+
+    .learn #h1 {
+            font-size: 30px;
+            margin-top: 50%;
     }
   }
   
